@@ -1,0 +1,19 @@
+{
+  "install_cds": "npm i -g @sap/cds-dk",
+  "create_project": "cds init my-bookshop",
+  "install_package": "cd my-bookshop && npm install",
+  "cds_run": "cd my-bookshop && cds watch",
+  "cat_service_path": "resources\\cat-service.cds",
+  "cat_servicejs_path": "resources\\cat-service.js",
+  "book_url": "http://localhost:4004/catalog/Books",
+  "author_url": "http://localhost:4004/catalog/Authors",
+  "data_model_path": "resources\\data-model.cds",
+  "new_cat_servicecds_path": "resources\\new-cat-service.cds",
+  "my_bookshop_Authors_csv_path": "resources\\my.bookshop-Authors.csv",
+  "my_bookshop_Books_csv_path": "resources\\my.bookshop-Books.csv",
+  "query_url": "http://localhost:4004/catalog/Authors?$expand=books($select=ID,title)",
+  "install_sqlite": "npm i sqlite3 -D",
+  "deploy_datamodel": "cd my-bookshop && cds deploy --to sqlite:db/my-bookshop.db",
+  "open_sqlite": "cd my-bookshop && C:\\Users\\C5287080\\sqlite\\sqlite-tools-win32-x86-3300100\\sqlite3 db/my-bookshop.db -cmd .dump",
+  "new_cat_servicejs_path": "resources\\new-cat-service.js"
+}
